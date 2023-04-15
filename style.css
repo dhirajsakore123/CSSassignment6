@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover auto;
+}
+.nav{
+    height: 100px;
+    position: relative;
+    top: 0;
+}
+.icon{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 900px;
+    color:white;
+   
+   
+  
+}
+   .menu{
+    position:absolute;
+    top: 15px;
+   } 
+
+
+ul,li{
+    display: inline-block;
+    padding: 30px; 
+    list-style: none;
+    cursor: pointer;
+    
+
+
+   }
+
+   .sahara{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: aliceblue;
+   
+   
+   }
+   
+   .saharatext{
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-shadow: 0px 0px  10px  rgb(137, 132, 132) ;
+    
+   }
+   .text{
+ 
+    line-height: 30px;
+    padding-bottom: 30px;
+   }
+
+   button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+   
+    
+   }
+   
+ 
+   .grid{
+    position:absolute;
+    top: 130px;
+    left: 800px;
+    display: inline-grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows:  270px 270px ;
+    column-gap: 50px;
+    row-gap: 20px;
+   
+   }
+
+
+   .lu1{
+    background-image: url(./pic-1.png);
+   background-size:cover;
+  
+   border-radius:10px ;
+   
+   }
+   .lu2{
+    background-image: url(./pic-2.jpg);
+    background-size:cover;
+    
+   border-radius:10px ;
+   }
+   .lu3{
+    background-image: url(./pic-3.png);
+    background-size:cover;
+   
+   border-radius:10px ;
+   }
+   .lu4{
+    background-image: url(./pic-4.png);
+    background-size:cover;
+   
+   border-radius:10px ;
+   }
+
+   .heading
+   {
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 0px 0px  10px  rgb(69, 67, 67) ;
+   }
+
+   .lux1{
+   padding: 20px;
+   line-height: 30px;
+   cursor: pointer;
+   color: aliceblue;
+   box-shadow: 0px 0px  10px  rgb(62, 55, 55) ;
+   text-shadow: 0px 0px  10px  rgb(69, 67, 67) ;
+   
+
+   }
+   .lux1:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+   }
+
+   /* ########################## */
+   /* mediaQuery for phone */
+
+   @media (min-width:280px) and (max-width:500px){
+
+    body{
+        background-size:cover auto;
+        background-repeat: repeat;
+        background-position: center;
+     }
+
+     .icon{
+        top: 20px;
+        left: 20px;
+        }
+     
+
+     .grid{
+        height: 2000px;
+       grid-template-columns: 250px;
+       grid-template-rows: 300px 300px 300px 300px;
+       top: 600px;
+     }
+     .sahara{
+
+        top: 120px;
+        left: 50px;
+        
+   }
+
+   .saharatext{
+    font-size: 30px;
+
+
+   }
+
+   .list{
+    position: absolute;
+    top: 5px;
+    left: 200px;
+   
+}
+
+ul li{
+    display: block;
+    padding: 5px;
+}
+
+.menu{
+    top:40px;
+    left:100px ;
+    
+}
+
+.grid{
+    height: 1400px;
+    top: 500px;
+    left: 20vmin;
+}
+   }
+    
+
+/* ################################# */
+   /* for tablets */ 
+
+   @media (min-width:500px) and (max-width:1025px) {
+    body{
+       background-size:cover auto;
+       background-repeat: repeat;
+    }
+
+    .icon{
+        
+        top: 40px;
+        left: 40px;
+        
+    }
+    .sahara{
+
+        top: 100px;
+        left: 100px;
+        
+   }
+
+   .saharatext{
+    font-size: 40px;
+   }
+
+    .grid{
+        height: 2000px;
+        position: absolute;
+        top: 400px;
+        left:10vmax;
+        grid-template-columns: 600px;
+        grid-template-rows: 300px 300px 300px 300px;
+      
+    }
+    .list{
+        position: absolute;
+        top: 1vmin;
+        left: 30vmax;
+    }
+
+    .lux1{
+        background-position: center;
+    }
+    
+    
+    
+}
+    
+      
+
+
+  
+   
+   
+
